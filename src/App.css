@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('/Users/gracethanglerdsumpan/Downloads/chanyagracet/public/fonts/HankenGrotesk-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('/Users/gracethanglerdsumpan/Downloads/chanyagracet/public/fonts/HankenGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('/Users/gracethanglerdsumpan/Downloads/chanyagracet/public/fonts/HankenGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* <img src={`${process.env.PUBLIC_URL}/homepage.png`} alt="Illustration of Grace" /> */
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('/Users/gracethanglerdsumpan/Downloads/chanyagracet/public/fonts/HankenGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    padding-top: 5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Hepta Slab', serif;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    /* margin-top: 10px; */
+}
+
+#home {
+    background-color: #ffffff;
+}
+
+.image-container img {
+    max-width: 800px; /* Adjust this value as needed */
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+#projects {
+    background-color: #ffffff;
+}
+
+#about {
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+}
+
+.code-container {
+    border: 1px solid #ddd;
+    padding: 1%;
+    border-radius: 10px;
+    /* background-color: #f9f9f9; */
+    overflow-x: auto;
+    font-size: 0.75em;
+    min-height: 10%;
+    min-width: 40%;
+}
+
+#projects {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: rgb(84, 140, 38);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.text-container {
+    flex: 1;
+    width: 25%;
+    padding-right: 20px; /* Add some space between the text and the cards */
+}
+
+.cards-container {
+    flex: 3;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 300px;
+    background-color: #6B8E23;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    cursor: grab;
+}
+
+
+.small-font {
+    font-size: 0.5em; /* Adjust the size as needed */
+}

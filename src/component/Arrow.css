@@ -1,0 +1,33 @@
+/* Arrow.css */
+.arrow-container {
+    position: absolute; /* Use absolute positioning to place it on top of other elements */
+    bottom: 10%; /* Adjust the position as needed */
+    left: 25%;
+    transform: translateX(-50%);
+    z-index: 9999; /* High z-index to ensure it appears on top */
+    text-align: center;
+    color: #000; /* Text color */
+}
+
+.arrow {
+    font-size: 24px; /* Size of the arrow */
+    /* animation: bounce 2s infinite;  */
+}
+
+.arrow:hover {
+    font-size: 24px; /* Size of the arrow */
+    animation: bounce 2s infinite; /* Add a simple bounce animation */
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
