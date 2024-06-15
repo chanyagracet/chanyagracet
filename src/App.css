@@ -116,9 +116,9 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     gap: 10px;
     overflow-x: auto;
-    padding: 20px;
-    background-color: rgb(84, 140, 38);
-    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
     align-items: center;
@@ -126,48 +126,71 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.text-container {
-    flex: 1;
-    width: 25%;
-    padding-right: 20px; 
-}
-
-/* .cards-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-} */
-
-/* .text-container {
-    margin-bottom: 20px;
-} */
-
-/* .code-container {
-    margin: 20px 0;
-} */
-
-/* .image-container img {
-    max-width: 100%;
-    height: auto;
-}*/
-
 .small-font {
     font-size: 0.8em;
 } 
 
+#section-header {
+    color: white;
+    top: 100px;
+}
+
+#white {
+    /* padding-top: -20%; */
+    color: white
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    /* background-color: white; */
+    /* height: 100vh; */
+}
+
+.image-archive-container img {
+    flex: 1;
+    max-width: 500px; /* Adjust this value as needed */
+    /* width: 80%; */
+    height: auto;
+    margin: 20px 0;
+    padding-top: 20%;
+}
+
+
 .cards-container {
-    flex: 3;
+    flex: 1;
     width: 75%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
 }
+
+
+.text-container {
+    flex: 3;
+    /* width: 100%; */
+    height: 100%;
+    padding-top: 5%;
+    background-color: whitesmoke;
+    border-radius: 40px 0px 40px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container-content {
+    width: 100%;
+}
+
 
 .card {
     flex: 0 0 auto;
-    width: 600;
-    height: 300px;
-    background-color: #6B8E23;
+    width: 200px;
+    height: 40px;
+    /* background-color: #dad6c9; */
     border-radius: 40px;
     display: flex;
     justify-content: center;
@@ -175,4 +198,44 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     font-size: 1.5rem;
     cursor: grab;
+}
+
+#archive-heading {
+    /* color: rgb(0, 0, 0); */
+    color: rgb(201, 24, 24);
+
+}
+/* 
+.project-description-default {
+    
+} */
+
+.project-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(16, 25, 183);
+
+}
+
+.project-tools {
+    font-style: italic;
+    margin: 5px 0;
+    color: rgb(16, 25, 183);
+}
+
+.project-description {
+    margin: 5px 0;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(201, 24, 24);
 }

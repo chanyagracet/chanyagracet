@@ -5,6 +5,8 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { coy } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Arrow from './component/Arrow';
 import Card from './component/Card';
+// import Card2024 from './component/Card2024';
+import Archive from './component/Archive';
 
 const App: React.FC = () => {
     const codeString = `
@@ -16,7 +18,8 @@ const App: React.FC = () => {
         grace.action = "runs a pop-up restaurant"
     else:
         grace.role = "21 y.o. screenager"
-        grace.actions = [rockclimb, curate_spotify_playlists, izakaya_hopping]
+        # talking about "screenagers"...we're creating an exciting app–coming soon!
+        grace.actions = [rockclimb, curate_spotify_playlists, solve_nyt_letter_boxed]
     `;
 
     return (
@@ -38,15 +41,9 @@ const App: React.FC = () => {
                 </div>
             </div>
             <div id="projects" className="section">
-                <div className="text-container">
-                    <p>From operating systems, databases, big data analytics, to full-stack development; I have learned and applied various skills to use in these projects.</p>
-                </div>
-                <div className="cards-container">
-                    <Card title="2021-2022" description="Pantry Pal: Javascript | Node.js | React | Axios | MySQL. Recipe-based grocery search engine for college students with a custom database." />
-                    <Card title="2022-2023" description="PennOS: C | UNIX | Docker | Git. Built from scratch a clone of the 'terminal' with a working file system and kernel that supports CLI commands." />
-                    <Card title="2023-2024" description="Product Design: 香包子. Rhino | Adobe Illustrator | Figma. Designed and sold Asian-inspired home goods with a profit of 1,000 USD." />
-                    <Card title="Recently [2024]" description="More projects coming soon!" />
-                </div>
+                <h1 id="section-header"> Welcome to my project archive!</h1>
+                {/* <p id="white"> To learn more about my professional experience, please view my resume!</p> */}
+                <Archive></Archive>
             </div>
             <div id="about" className="section">
                 <h2>About Me</h2>
