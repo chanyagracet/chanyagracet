@@ -1,0 +1,50 @@
+/* body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+} */
+
+.container {
+    text-align: center;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 22vh;
+    padding-top: 22vh;
+}
+
+.icon-container {
+    color: rgb(51, 51, 51);
+}
+
+.icon-container p {
+    color: rgb(51, 51, 51);
+    font-size: 0.8rem;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-link {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon {
+    width: 200px; 
+    height: 200px; 
+    transition: transform 0.2s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+

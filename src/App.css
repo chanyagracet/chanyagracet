@@ -21,7 +21,7 @@
     font-style: normal;
 }
 
-/* <img src={`${process.env.PUBLIC_URL}/homepage.png`} alt="Illustration of Grace" /> */
+/* <img src={`${process.env.PUBLIC_URL}/img/homepage.png`} alt="Illustration of Grace" /> */
 
 @font-face {
     font-family: 'Hanken Grotesk';
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     overflow-x: auto;
     padding: 10px;
     background-color: rgb(19, 19, 19);
-    border-radius: 40px;
+    border-radius: 40px 40px 0px 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
     align-items: center;
@@ -179,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100vh;
 }
 
 .text-container-content {
@@ -198,6 +199,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     font-size: 1.5rem;
     cursor: grab;
+    transition: background-color 0.3s ease;
 }
 
 #archive-heading {
@@ -205,10 +207,6 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(201, 24, 24);
 
 }
-/* 
-.project-description-default {
-    
-} */
 
 .project-title {
     font-weight: bold;
@@ -226,8 +224,13 @@ h1, h2, h3, h4, h5, h6 {
 .project-description {
     margin: 5px 0;
     color: black;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+
+#output {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 a {
@@ -238,4 +241,21 @@ a {
 
 a:hover {
     color: rgb(201, 24, 24);
+}
+
+.click-message {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 40%;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #555;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

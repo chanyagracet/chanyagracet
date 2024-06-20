@@ -5,8 +5,11 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { coy } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Arrow from './component/Arrow';
 import Card from './component/Card';
-// import Card2024 from './component/Card2024';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import About from './sections/About';
 import Archive from './component/Archive';
+import Directory from './sections/Directory';
+import Home from './sections/Home';
 
 const App: React.FC = () => {
     const codeString = `
@@ -23,34 +26,15 @@ const App: React.FC = () => {
     `;
 
     return (
-        <div>
-            <Navbar />
-            <div id="home" className="section">
-                <h1>Grace Thanglerdsumpan</h1>
-                <h5>Crafted in Bangkok, Thailand 📍 Based in Philadelphia</h5>
-                <p>Nice to meet you! My name is Chanya Thanglerdsumpan, and I go by Grace.<br />I love working on hands-on projects that push the boundaries and applications of CS, data, and design.</p>
-                <br />
-                <div className="code-container">
-                    <SyntaxHighlighter language="python" style={coy} className="small-font">
-                        {codeString}
-                    </SyntaxHighlighter>
-                </div>
-                <br />
-                <div className="image-container">
-                    <img src={`${process.env.PUBLIC_URL}/homepage.png`} alt="Illustration of Grace" />
-                </div>
-            </div>
-            <div id="projects" className="section">
-                <h1 id="section-header"> Welcome to my project archive!</h1>
-                {/* <p id="white"> To learn more about my professional experience, please view my resume!</p> */}
-                <Archive></Archive>
-            </div>
-            <div id="about" className="section">
-                <h2>About Me</h2>
-                <p>More content about Grace...</p>
-            </div>
-            <Arrow />
-        </div>
+        <Router>
+            <Routes>
+                <Route path = "/" element={<Directory />} />
+                <Route path = "/home"  element={<Home />}>
+                </Route>
+            </Routes>
+                
+        </Router>
+        
     );
 };
 
