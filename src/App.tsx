@@ -12,19 +12,6 @@ import Directory from './sections/Directory';
 import Home from './sections/Home';
 
 const App: React.FC = () => {
-    const codeString = `
-    if usually:
-        grace.role = "senior @ the university of pennsylvania"
-        grace.action = "pursues mse in data science & bse in computer science"
-    elif every_now_and_then: # insta: @everynowthenn
-        grace.role = "designer (and self-acclaimed chef)"
-        grace.action = "runs a pop-up restaurant"
-    else:
-        grace.role = "21 y.o. screenager"
-        # talking about "screenagers"...we're creating an exciting app–coming soon!
-        grace.actions = [rockclimb, curate_spotify_playlists, solve_nyt_letter_boxed]
-    `;
-
     return (
         <Router>
             <Routes>
