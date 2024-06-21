@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chanyagracet/static/css/main.785ce299.chunk.css",
-    "main.js": "/chanyagracet/static/js/main.0f01dc3e.chunk.js",
-    "main.js.map": "/chanyagracet/static/js/main.0f01dc3e.chunk.js.map",
+    "main.js": "/chanyagracet/static/js/main.ed2c2643.chunk.js",
+    "main.js.map": "/chanyagracet/static/js/main.ed2c2643.chunk.js.map",
     "runtime-main.js": "/chanyagracet/static/js/runtime-main.aff4ba89.js",
     "runtime-main.js.map": "/chanyagracet/static/js/runtime-main.aff4ba89.js.map",
     "static/js/2.d5125ab8.chunk.js": "/chanyagracet/static/js/2.d5125ab8.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.aff4ba89.js",
     "static/js/2.d5125ab8.chunk.js",
     "static/css/main.785ce299.chunk.css",
-    "static/js/main.0f01dc3e.chunk.js"
+    "static/js/main.ed2c2643.chunk.js"
   ]
 }
