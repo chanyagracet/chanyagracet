@@ -40,6 +40,7 @@ const Home: React.FC = () => {
 
                 <div className="image-container">
                     <img src={`${process.env.PUBLIC_URL}/img/homepage.png`} alt="Illustration of Grace" />
+                    {/* <img src={`../../public/img/homepage.png`} alt="Illustration of Grace" /> */}
                 </div>
             </div>
             <div id="projects" className="section">
