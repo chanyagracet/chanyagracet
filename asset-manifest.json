@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/chanyagracet/static/css/main.785ce299.chunk.css",
-    "main.js": "/chanyagracet/static/js/main.7f573d9c.chunk.js",
-    "main.js.map": "/chanyagracet/static/js/main.7f573d9c.chunk.js.map",
+    "main.css": "/chanyagracet/static/css/main.a95de57b.chunk.css",
+    "main.js": "/chanyagracet/static/js/main.4d058d54.chunk.js",
+    "main.js.map": "/chanyagracet/static/js/main.4d058d54.chunk.js.map",
     "runtime-main.js": "/chanyagracet/static/js/runtime-main.aff4ba89.js",
     "runtime-main.js.map": "/chanyagracet/static/js/runtime-main.aff4ba89.js.map",
-    "static/js/2.e3492b5f.chunk.js": "/chanyagracet/static/js/2.e3492b5f.chunk.js",
-    "static/js/2.e3492b5f.chunk.js.map": "/chanyagracet/static/js/2.e3492b5f.chunk.js.map",
+    "static/js/2.bfc33aad.chunk.js": "/chanyagracet/static/js/2.bfc33aad.chunk.js",
+    "static/js/2.bfc33aad.chunk.js.map": "/chanyagracet/static/js/2.bfc33aad.chunk.js.map",
     "index.html": "/chanyagracet/index.html",
-    "static/css/main.785ce299.chunk.css.map": "/chanyagracet/static/css/main.785ce299.chunk.css.map",
-    "static/js/2.e3492b5f.chunk.js.LICENSE.txt": "/chanyagracet/static/js/2.e3492b5f.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/chanyagracet/static/media/HankenGrotesk-Regular.b6ac11a4.ttf"
+    "static/css/main.a95de57b.chunk.css.map": "/chanyagracet/static/css/main.a95de57b.chunk.css.map",
+    "static/js/2.bfc33aad.chunk.js.LICENSE.txt": "/chanyagracet/static/js/2.bfc33aad.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/chanyagracet/static/media/HankenGrotesk-Regular.b6ac11a4.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.aff4ba89.js",
-    "static/js/2.e3492b5f.chunk.js",
-    "static/css/main.785ce299.chunk.css",
-    "static/js/main.7f573d9c.chunk.js"
+    "static/js/2.bfc33aad.chunk.js",
+    "static/css/main.a95de57b.chunk.css",
+    "static/js/main.4d058d54.chunk.js"
   ]
 }
