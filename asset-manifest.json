@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/chanyagracet/static/css/main.493cf5d2.chunk.css",
-    "main.js": "/chanyagracet/static/js/main.e8db40bc.chunk.js",
-    "main.js.map": "/chanyagracet/static/js/main.e8db40bc.chunk.js.map",
+    "main.css": "/chanyagracet/static/css/main.785ce299.chunk.css",
+    "main.js": "/chanyagracet/static/js/main.ed2c2643.chunk.js",
+    "main.js.map": "/chanyagracet/static/js/main.ed2c2643.chunk.js.map",
     "runtime-main.js": "/chanyagracet/static/js/runtime-main.aff4ba89.js",
     "runtime-main.js.map": "/chanyagracet/static/js/runtime-main.aff4ba89.js.map",
     "static/js/2.d5125ab8.chunk.js": "/chanyagracet/static/js/2.d5125ab8.chunk.js",
     "static/js/2.d5125ab8.chunk.js.map": "/chanyagracet/static/js/2.d5125ab8.chunk.js.map",
     "index.html": "/chanyagracet/index.html",
-    "static/css/main.493cf5d2.chunk.css.map": "/chanyagracet/static/css/main.493cf5d2.chunk.css.map",
+    "static/css/main.785ce299.chunk.css.map": "/chanyagracet/static/css/main.785ce299.chunk.css.map",
     "static/js/2.d5125ab8.chunk.js.LICENSE.txt": "/chanyagracet/static/js/2.d5125ab8.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/chanyagracet/static/media/HankenGrotesk-Regular.b6ac11a4.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.aff4ba89.js",
     "static/js/2.d5125ab8.chunk.js",
-    "static/css/main.493cf5d2.chunk.css",
-    "static/js/main.e8db40bc.chunk.js"
+    "static/css/main.785ce299.chunk.css",
+    "static/js/main.ed2c2643.chunk.js"
   ]
 }
